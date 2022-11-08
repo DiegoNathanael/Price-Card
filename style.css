@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+body {
+    background-color: rgb(240, 149, 46);
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    margin: 110px 60px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container > div {
+    height: 400px;
+    width: 350px;
+    flex-wrap: wrap;
+}
+
+.image {
+    height: 200px;
+    width: 350px;
+}
+
+.community {
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.pro {
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.enterprise {
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.edition {
+    font-size: 2rem;
+    background-color: azure;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(122, 122, 122);
+    height: 2.7rem;
+    font-size: 1.3rem;
+}
+
+.button {
+    background-color: rgb(240, 149, 46);
+    border: 0 solid rgb(240, 149, 46);
+    border-radius: 10px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-top: 10px;
+}
