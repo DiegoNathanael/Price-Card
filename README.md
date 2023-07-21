@@ -1,1 +1,3 @@
-# Price Card Website with Flexbox
+# Price Card
+
+CSS Flexbox Project
